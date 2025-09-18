@@ -1,3 +1,4 @@
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -179,6 +180,7 @@ font-size: 22px; /* Увеличен шрифт */
  justify-content: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  padding: 65px;
   gap: 20px;
 }
 
@@ -211,5 +213,10 @@ font-size: 22px; /* Увеличен шрифт */
 .help-card a {
    color: white;
   text-decoration: none;
+  font-weight: bold;
+}
+
+
+.icon{
   font-weight: bold;
 }
